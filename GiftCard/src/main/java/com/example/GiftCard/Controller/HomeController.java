@@ -19,7 +19,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Controller
 public class HomeController {
-	@RequestMapping(value="/",method=RequestMethod.GET)
+	@RequestMapping(value="/mockGift",method=RequestMethod.GET)
 	public String getPage(HttpServletRequest request,HttpServletResponse response, Model model) {
 		String query=request.getQueryString();
 		String[] queryData=query.split("=");

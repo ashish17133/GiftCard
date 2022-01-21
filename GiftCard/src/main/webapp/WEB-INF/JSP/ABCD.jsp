@@ -7,9 +7,9 @@
         <link href="<c:url value="/css/common.css"/>" rel="stylesheet" type="text/css">
     </head>
     </head>
-    <body>
+    <body class="w-75 p-3 rounded-1 border-primary" style="background-color: #eee;">
         
-<div class="card-body">
+<div class="card-body border-0">
   <div class="line-1">
     <h2>ABCD.com</h2>
     <h4>Gift Card</h4>
@@ -21,6 +21,7 @@
     <span class="num">500$</span>
   </div>
 </div>
+
            
     </body>
 </html>
